@@ -6,4 +6,10 @@ edition = "2024"
 [dependencies]
 rs1090 = "0.6.0"
 clap = { version = "4", features = ["derive"] }
-tokio = { version = "1", features = ["net", "time", "macros", "rt-multi-thread"] }
+tokio = { version = "1", features = [
+  "net",
+  "time",
+  "macros",
+  "rt-multi-thread",
+] }
+batch-copy = { git = "https://github.com/perrygeo/batch-copy" }

@@ -14,8 +14,8 @@ _default:
 BEAST_PORT        ?= 30005
 DUMP1090          ?= dump1090
 DUMP1090_OPTS     ?=
-LAT               ?= 40.5
-LONG              ?= -105.0
+LAT               ?= 40.5393
+LONG              ?= -105.1048
 RTL_DEVICE        ?= 0
 TAR1090_HTTP_PORT ?= 8078
 SAMPLE_SECONDS    ?= 60
